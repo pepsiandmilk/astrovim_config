@@ -50,7 +50,8 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      -- "pyright"
+      -- use the system provided angular language server (global or dev dependency)
+      "angularls",
     },
   },
 
